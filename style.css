@@ -1,0 +1,128 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 95%);
+  justify-items: center;
+  min-height: 100vh;
+font-family: 'Lexend', sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+
+h1 {
+font-family: 'Big Shoulders Text', sans-serif;
+text-transform: uppercase;
+margin-left: 25px;
+font-weight: 700;
+letter-spacing: 2px;
+font-size: 40px;
+}
+
+p{
+	font-family: 'Lexend', sans-serif;
+  margin-left: 25px;
+  margin-bottom: 120px;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.logos{
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+
+.boton {
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  border: solid hsl(0, 0%, 95%);
+  border-width: 2px;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 60px;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+#boton1:hover { 
+  background-color:hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+ } 
+ #boton2:hover { 
+  background-color:hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+ } 
+ #boton3:hover { 
+  background-color: hsl(179, 100%, 13%);
+  color:hsl(0, 0%, 95%);
+ } 
+
+
+#boton1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#boton2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#boton3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.sedans {
+	text-align: left;
+  padding: 3%;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+   min-height: 450px;
+
+}
+.suvs{
+	text-align: left;
+  padding: 3%;
+  background-color: hsl(184, 100%, 22%);	
+   min-height: 450px;
+}
+.luxury {
+	text-align: left;
+  padding: 3%;
+  background-color: hsl(179, 100%, 13%);
+   border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+   min-height: 450px;
+}
+
+@media (min-width: 800px) {
+  .contenedor {
+    flex-direction: row;
+    max-width: 960px;
+  }
+  .sedans {
+  
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  min-height: 450px;
+}
+.luxury {
+  text-align: left;
+  padding: 3%;
+  background-color: hsl(179, 100%, 13%);
+   border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+   min-height: 450px;
